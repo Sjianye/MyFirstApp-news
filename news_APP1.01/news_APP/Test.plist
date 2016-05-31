@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>thumbnail</key>
+		<string>thumbnail_000</string>
+		<key>title</key>
+		<string>新闻标题一</string>
+		<key>updateTime</key>
+		<string>12:00</string>
+		<key>comments</key>
+		<string>1100</string>
+	</dict>
+	<dict>
+		<key>thumbnail</key>
+		<string>thumbnail_001</string>
+		<key>title</key>
+		<string>新闻标题二</string>
+		<key>updateTime</key>
+		<string>13:21</string>
+		<key>comments</key>
+		<string>87</string>
+	</dict>
+	<dict>
+		<key>thumbnail</key>
+		<string>thumbnail_002</string>
+		<key>title</key>
+		<string>新闻标题三</string>
+		<key>updateTime</key>
+		<string>13:23</string>
+		<key>comments</key>
+		<string>8800</string>
+	</dict>
+	<dict>
+		<key>thumbnail</key>
+		<string>thumbnail_003</string>
+		<key>title</key>
+		<string>新闻标题四</string>
+		<key>updateTime</key>
+		<string>13:52</string>
+		<key>comments</key>
+		<string>21</string>
+	</dict>
+	<dict>
+		<key>thumbnail</key>
+		<string>thumbnail_004</string>
+		<key>title</key>
+		<string>新闻标题五</string>
+		<key>updateTime</key>
+		<string>14:41</string>
+		<key>comments</key>
+		<string>49</string>
+	</dict>
+</array>
+</plist>
