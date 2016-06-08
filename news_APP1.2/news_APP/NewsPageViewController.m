@@ -6,11 +6,8 @@
 //  Copyright © 2016年 qingyun. All rights reserved.
 //
 
-#import "NewsPageViewController.h"
-#import "NewsTableViewController.h"
-#import "MyNewsCollectionView.h"
-#import "Masonry.h"
-#import "TitlesModel.h"
+
+#import "ThisPageVCHeader.h"
 
 @interface NewsPageViewController ()<UIPageViewControllerDataSource,UIPageViewControllerDelegate>
 
@@ -61,7 +58,7 @@
         make.edges.equalTo(@0);
     }];
     self.navigationController.navigationBar.translucent = NO;
-    
+    self.tabBarController.tabBar.translucent = NO;
    // NSLog(@"%@",self.collectionViewTitle);
 
 }

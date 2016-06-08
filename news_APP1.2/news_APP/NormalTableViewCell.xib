@@ -26,12 +26,6 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPn-eT-81N">
-                        <rect key="frame" x="314" y="76" width="31" height="15"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reading.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Uh-Ag-ogF">
                         <rect key="frame" x="350" y="74" width="17" height="17"/>
                         <constraints>
@@ -46,6 +40,12 @@
                             <constraint firstAttribute="height" constant="80" id="OX6-NJ-Eoq"/>
                         </constraints>
                     </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPn-eT-81N">
+                        <rect key="frame" x="314" y="76" width="31" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="2Uh-Ag-ogF" secondAttribute="bottom" constant="8" id="1be-G8-FpL"/>
@@ -65,6 +65,7 @@
             <connections>
                 <outlet property="comments" destination="XPn-eT-81N" id="7Sq-2d-lyk"/>
                 <outlet property="thumbnail" destination="6IA-jd-ZRA" id="gMh-us-o9V"/>
+                <outlet property="thumbnailWidth" destination="Ae4-ZM-fzf" id="xnZ-sy-dYX"/>
                 <outlet property="title" destination="dPt-Wh-9u2" id="ROT-dj-LZK"/>
                 <outlet property="updateTime" destination="A6n-8n-i4i" id="BLJ-Gq-oHH"/>
             </connections>

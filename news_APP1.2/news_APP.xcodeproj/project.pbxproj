@@ -29,7 +29,6 @@
 		CC4018A41CF3202D0098F38C /* MyNewsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4018A21CF3202D0098F38C /* MyNewsCollectionViewCell.m */; };
 		CC4018A51CF3202D0098F38C /* MyNewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4018A31CF3202D0098F38C /* MyNewsCollectionViewCell.xib */; };
 		CC4018AA1CF32BE50098F38C /* MyNewsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4018A91CF32BE50098F38C /* MyNewsCollectionView.m */; };
-		CC4F619C1D01A020004ED4B8 /* FocusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4F619B1D01A020004ED4B8 /* FocusModel.m */; };
 		CC53A9D51CEB4E0E00F11C4B /* guide_00.png in Resources */ = {isa = PBXBuildFile; fileRef = CC53A9D01CEB4E0E00F11C4B /* guide_00.png */; };
 		CC53A9D61CEB4E0E00F11C4B /* guide_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CC53A9D11CEB4E0E00F11C4B /* guide_01.png */; };
 		CC53A9D71CEB4E0E00F11C4B /* guide_02.png in Resources */ = {isa = PBXBuildFile; fileRef = CC53A9D21CEB4E0E00F11C4B /* guide_02.png */; };
@@ -163,8 +162,6 @@
 		CC4018A31CF3202D0098F38C /* MyNewsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyNewsCollectionViewCell.xib; sourceTree = "<group>"; };
 		CC4018A81CF32BE50098F38C /* MyNewsCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNewsCollectionView.h; sourceTree = "<group>"; };
 		CC4018A91CF32BE50098F38C /* MyNewsCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNewsCollectionView.m; sourceTree = "<group>"; };
-		CC4F619A1D01A020004ED4B8 /* FocusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusModel.h; sourceTree = "<group>"; };
-		CC4F619B1D01A020004ED4B8 /* FocusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusModel.m; sourceTree = "<group>"; };
 		CC53A9D01CEB4E0E00F11C4B /* guide_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_00.png; sourceTree = "<group>"; };
 		CC53A9D11CEB4E0E00F11C4B /* guide_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_01.png; sourceTree = "<group>"; };
 		CC53A9D21CEB4E0E00F11C4B /* guide_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_02.png; sourceTree = "<group>"; };
@@ -287,6 +284,7 @@
 		CCFA5F021CEC69C300F9C648 /* MeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeTableViewController.h; sourceTree = "<group>"; };
 		CCFA5F031CEC69C300F9C648 /* MeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeTableViewController.m; sourceTree = "<group>"; };
 		CCFA5F0A1CEC750800F9C648 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		CCFFFFD01D0269BD00FD2E61 /* ThisPageVCHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThisPageVCHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -531,8 +529,6 @@
 				CCF4C9F31CF7E3910097EC8A /* Common.h */,
 				CC0306A61CFDB2D300099E04 /* TitlesModel.h */,
 				CC0306A71CFDB2D300099E04 /* TitlesModel.m */,
-				CC4F619A1D01A020004ED4B8 /* FocusModel.h */,
-				CC4F619B1D01A020004ED4B8 /* FocusModel.m */,
 				CCF4CA561CF808C10097EC8A /* ItemModel.h */,
 				CCF4CA571CF808C10097EC8A /* ItemModel.m */,
 			);
@@ -697,6 +693,7 @@
 			children = (
 				CCFA5EDB1CEC474800F9C648 /* NewsPageViewController.h */,
 				CCFA5EDC1CEC474800F9C648 /* NewsPageViewController.m */,
+				CCFFFFD01D0269BD00FD2E61 /* ThisPageVCHeader.h */,
 				CC4018A61CF322370098F38C /* TableView */,
 				CC4018A71CF3224E0098F38C /* TitleCollection */,
 			);
@@ -937,7 +934,6 @@
 				CC53BC681CE6B74F00013EBC /* HotNavigationController.m in Sources */,
 				CCF4CA5D1CF82FAB0097EC8A /* NSDate+SSDate.m in Sources */,
 				CCFA5EE91CEC513C00F9C648 /* NewsTableViewController.m in Sources */,
-				CC4F619C1D01A020004ED4B8 /* FocusModel.m in Sources */,
 				CC4018961CF305740098F38C /* MASViewConstraint.m in Sources */,
 				CCF4CAA61CF8337F0097EC8A /* AFHTTPSessionManager.m in Sources */,
 			);

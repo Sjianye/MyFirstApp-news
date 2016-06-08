@@ -12,7 +12,7 @@
 		<key>species</key>
 		<string>军事</string>
 		<key>url</key>
-		<string>http://api.iclient.ifeng.com/ClientNews?id=JS83,FOCUSJS83&amp;gv=5.1.0&amp;av=5.1.0&amp;uid=864103028858691&amp;deviceid=864103028858691&amp;proid=ifengnews&amp;os=android_19&amp;df=androidphone&amp;vt=5&amp;screen=1080x1776&amp;publishid=6109&amp;action=default</string>
+		<string>http://api.iclient.ifeng.com/ClientNews?id=JS83,FOCUSJS83&amp;gv=5.2.0&amp;av=5.2.0&amp;uid=866654024609932&amp;deviceid=866654024609932&amp;proid=ifengnews&amp;os=android_21&amp;df=androidphone&amp;vt=5&amp;screen=1152x1920&amp;publishid=6103&amp;action=down%20api.iclient.ifeng.com%20200</string>
 	</dict>
 	<dict>
 		<key>species</key>

@@ -6,8 +6,10 @@
 //  Copyright © 2016年 qingyun. All rights reserved.
 //
 
-#import "MyNewsCollectionView.h"
-#import "MyNewsCollectionViewCell.h"
+//#import "MyNewsCollectionView.h"
+//#import "MyNewsCollectionViewCell.h"
+//#import "TitlesModel.h"
+#import "ThisPageVCHeader.h"
 #import "TitlesModel.h"
 
 @interface MyNewsCollectionView ()<UICollectionViewDataSource,UICollectionViewDelegate>
@@ -17,7 +19,7 @@
 /**
  *  通过传过来的(NSArray *)titles 创建 collectionView
  *
- *  @param titles 传进来的collectionView的Items的内容（现在为自定义的固定数组）
+ *  @param titles 传进来的collectionView的Items的内容
  *
  *  @return 返回一个创建好的collectionView
  */
@@ -47,6 +49,7 @@
     newsCollectionView.currentIndex = 0;
     return newsCollectionView;
 }
+
 #pragma mark -Data Source
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
@@ -60,7 +63,6 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
 
     MyNewsCollectionViewCell *item = [collectionView dequeueReusableCellWithReuseIdentifier:@"item" forIndexPath:indexPath];
-//    item.label.text = self.titles[indexPath.item];
     TitlesModel *titleModel = self.titles[indexPath.item];
     item.label.text = titleModel.species;
     item.label.textColor = indexPath.item == _currentIndex ? [UIColor redColor] : [UIColor blackColor];

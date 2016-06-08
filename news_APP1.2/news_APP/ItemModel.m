@@ -54,10 +54,21 @@
     return self;
 }
 -(NSString *)dateStringFormDate:(NSDate *)date{
-    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"HH:mm"];
-    return [formatter stringFromDate:date];
+    NSTimeInterval interval = -[date timeIntervalSinceNow];
+    if (interval < 60 * 30){//分级
+        return [NSString stringWithFormat:@"%d分钟前",(int)(interval / 60)];
+    }else if (interval < 60 * 60 * 24 ){//一天内
+        NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+        [formatter setDateFormat:@"HH:mm"];
+        return [formatter stringFromDate:date];
+    }else if (interval < 60 * 60 * 24 * 30 && interval >= 60 * 60 * 24 ){//天级
+        NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+        [formatter setDateFormat:@"MM-dd"];
+        return [formatter stringFromDate:date];
+    }
+    return nil;
 }
+
 @end
 
 
